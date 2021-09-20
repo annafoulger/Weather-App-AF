@@ -18,6 +18,8 @@
       <div class="weatherapp">
         <h1>The Weather Rundown</h1>
       </div>
+    </br>
+    <div class="weather-app-wrap">
       <div class="container">
       <h2>New York</h2>
       <ul>
@@ -26,27 +28,39 @@
       </ul>
       <div class="row">
         <div class="col-6">
+          <div class= "clearfix weather-temperature">
+          
           <img
             src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
-            alt="Clear"
+            alt="Clear" class="float left"
+          
           />
-          12°C | °F
+          
+          <div class= "float-left">
+          <strong> 12</strong>
+          <span class="units">°C | <a href="#" style=text-decoration:none>°F</a></span>
+          </div>
+          
         </div>
       </div>
       <div class="col-6">
         <ul>
           <li>Precipitation: 0%</li>
+          <li>Humidity: 70%</li>
           <li>Wind: 2km/h</li>
         </ul>
-      </div>
-
+      
+    </div>
+    </div>
+    </div>
+  </br>
       <small>
         <a href="https://github.com/annafoulger/Weather-App-AF" target="_blank"
           >Open-Source Code </a
         >by Anna Foulger
       </small>
       </div>
-    </div>
+      </div>
     <script src="src/app.js"></script>
   </body>
 </html>
